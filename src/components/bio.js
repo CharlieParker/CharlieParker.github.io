@@ -39,11 +39,7 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div>
-      <div
-        style={{
-          boxShadow: 0
-        }}
-      >
+      <div>
         <SocialIcon url={`https://linkedin.com/in/${social.linkedin}/`} />
       </div>
       <div

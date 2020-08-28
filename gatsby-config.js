@@ -3,7 +3,7 @@ module.exports = {
     title: `Charlie Parker`,
     author: {
       name: `Charlie Parker`,
-      summary: `Experimental blog`,
+      summary: `ツ`,
     },
     description: `A blog built based on Kyle Mathews starter.`,
     siteUrl: `https://charlieparker.github.io/`,
