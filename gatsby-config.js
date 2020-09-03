@@ -8,7 +8,9 @@ module.exports = {
     description: `A blog built based on Kyle Mathews starter.`,
     siteUrl: `https://charlieparker.github.io/`,
     social: {
-      linkedin: 'parker57'
+      linkedin: 'parker57',
+      facebook: 'charliealexanderparker',
+      instagram: 'charlie__parkerr'
     },
   },
   plugins: [

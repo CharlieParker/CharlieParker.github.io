@@ -8,7 +8,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import { SocialIcon } from "react-social-icons"
+
+// import { SocialIcon } from "react-social-icons"
 
 import { rhythm } from "../utils/typography"
 
@@ -28,20 +29,14 @@ const Bio = () => {
             name
             summary
           }
-          social {
-            linkedin
-          }
         }
       }
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div>
-      <div>
-        <SocialIcon url={`https://linkedin.com/in/${social.linkedin}/`} />
-      </div>
       <div
         style={{
           display: `flex`,

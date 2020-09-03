@@ -1,0 +1,9 @@
+.social {
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    box-shadow: none;
+}
